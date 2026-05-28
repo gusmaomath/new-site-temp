@@ -256,5 +256,4 @@ export const categories: { value: PortfolioCategory | 'todos'; label: string }[]
   { value: 'contencoes', label: 'Contenções' },
   { value: 'comercio-servicos', label: 'Comércio e Serviços' },
   { value: 'bim', label: 'BIM' },
-  { value: 'arquitetura', label: 'Arquitetura' },
 ]

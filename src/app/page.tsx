@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 }
 
 const stats = [
-  { value: 35, suffix: '+', label: 'Anos de Experiência' },
-  { value: 500, suffix: '+', label: 'Projetos Concluídos' },
-  { value: 7, suffix: '', label: 'Setores Atendidos' },
-  { value: 19, suffix: '+', label: 'Clientes de Referência' },
+  { value: 30, suffix: '+', label: 'Anos de Experiência' },
+  { value: 200, suffix: '+', label: 'Projetos Entregues' },
+  { value: 4, suffix: '', label: 'Prêmios de Qualidade' },
+  { value: 18, suffix: '+', label: 'Clientes de Grande Porte' },
 ]
 
 const featuredProjects = portfolioItems.slice(0, 6)
@@ -45,15 +45,13 @@ export default function HomePage() {
               Engenharia Estrutural · BIM · Consultoria
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-6">
-              Transformando Projetos em{' '}
-              <span className="text-nt-teal" style={{ color: '#4DB6C4' }}>
-                Realidade
+              Engenharia civil de grande porte.{' '}
+              <span className="text-nt-teal">
+                Da pré-engenharia à entrega em BIM LOD 300.
               </span>
             </h1>
             <p className="text-nt-gray-light text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
-              Mais de 35 anos de experiência em engenharia estrutural, projetos
-              complexos e consultoria técnica de alto nível para os maiores
-              empreendimentos do Brasil.
+              Projetos industriais com 30 anos de experiência. Para quem não pode errar.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

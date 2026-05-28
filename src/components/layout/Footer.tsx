@@ -164,7 +164,7 @@ export default function Footer() {
             reservados.
           </p>
           <p className="text-nt-gray-mid text-sm">
-            CNPJ: 00.000.000/0001-00 · CREA-SP
+            CREA-SP · Membro ABECE · ABTCP
           </p>
         </div>
       </div>
